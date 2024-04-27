@@ -1,3 +1,28 @@
+/*
+Printing Unique Elements in an Array Write a program to print all the unique elements in the given array.
+
+Input Format:
+
+The first line of input denotes the size of an array(N) The remaining line of input denotes the 'N' elements.
+
+Output Format: Print all the unique elements Sample
+
+Input:
+
+5
+
+1
+
+1
+
+2
+
+2
+
+3
+
+Sample Output: 1 2 3
+*/
 #include<iostream>
 using namespace std;
 
@@ -13,7 +38,6 @@ if (i == j)
 cout << a[i] << " ";
 }
 }
-
 int main()
 {
 int num;
